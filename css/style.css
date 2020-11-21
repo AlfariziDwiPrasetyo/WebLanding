@@ -1,0 +1,90 @@
+html {
+	position: relative;
+	
+}
+body {
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+.jumbotron {
+	height: 400px; 
+	background-image: url('../LONTE.jpg');
+	background-attachment: fixed;
+	background-position: 0 -50px;
+	color: #333;
+	-webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    overflow: hidden;
+
+}
+
+.jumbotron img {
+	width: 200px;
+	border : 4px solid #333;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.jumbotron h1, .jumbotron p {
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+ hr {
+	width: 250px;
+	border-top: 4px solid #999;
+	border-radius: 4px
+}
+section {
+    min-height: 500px
+}
+.portfolio {
+	background-color: #eee;
+
+
+}
+
+.pkiri, .pkanan {
+	opacity: 0;
+	transform: translate(-50px, 0) rotate(15deg);
+	transition: 1s;
+}
+
+.pkanan {
+	transform: translate(50px, 0) rotate(-15deg);
+}
+
+.pkiri.pmuncul, .pkanan.pmuncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.portfolio .thumbnail{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+.portfolio .thumbnail.muncul {
+	opacity: 1;
+	transform:  translate(0,0);
+}
+.contact {
+	min-height: 800px;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	bottom: 0;
+	background-color: #333;
+	color: #aaa;
+
+
+}
+
+footer p {
+	font-size: 1em;
+	color: #aaa;
+}

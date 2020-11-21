@@ -1,0 +1,151 @@
+
+.active-pink-4 input[type=text]:focus:not([readonly]) {
+  border: 1px solid #f48fb1;
+  box-shadow: 0 0 0 1px #f48fb1;
+}
+.active-pink-4 {
+	margin-top: 7px;
+}
+.navbar .collapse li a {
+	color: skyblue; font-family:'Raleway',sans-serif;
+}
+.navbar{
+	opacity: 90%;
+}
+.jumbotron{
+	height: 500px;
+	margin-bottom: -100px;
+    background-attachment: fixed; 
+	background-image : url('../Copy.jpg');
+	background-position: 0 -30px;
+	-webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	filter: blur(1px);
+	
+	
+    
+   
+    overflow: hidden;
+	
+    
+}
+
+.jumbotron h1 {
+	color: aqua;
+}
+.about{
+	margin-top:100px;
+	background-color:  #fb1e76;
+	
+}
+ h2 { color: skyblue; font-family: monospace;
+   font-size: 80px; 
+   font-weight: normal; 
+   line-height: 60px; 
+   margin-top: 50px; 
+   text-transform: uppercase; 
+   text-align: left;
+   text-shadow: 1px 1px 10px skyblue;
+}
+
+p { color: skyblue; 
+ 	font-family: 'Raleway',sans-serif; 
+ 	font-size: 40px; 
+ 	font-weight: 500; 
+ 	line-height: 32px;
+ 	margin-top: 30px;
+ 	text-shadow: 1px 1px 10px 	skyblue;
+ 	}
+
+h3 { color: #e64072; font-family:'Raleway',sans-serif;
+  font-size: 80px; 
+  font-weight: normal; 
+  line-height: 60px; 
+  margin-top: 50px; 
+  text-transform: uppercase; 
+  text-shadow: 2px 2px 0 #000;
+  margin: 10px 0 24px; 
+  text-align: center;
+  text-shadow: 1px 1px 10px #e64072;
+  
+  }
+
+  .panimation, .H2animation{
+  	opacity: 0;
+  	transition: 2s;
+  	transform: translate(-50px, 0);
+  }
+
+  .panimation.pmuncul, .H2animation.pmuncul{
+  	opacity: 1;
+  	transform: translate(0,0);
+  }
+
+.Template p {
+	color: #e64072;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 30px;
+	text-shadow: 1px 1px 10px #e64072;
+	margin-bottom: 50px;
+
+
+}
+
+.Template {
+	background-color: skyblue;
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.Template .thumbnail{
+	opacity: 0;
+	transform: translate(0,-40px);
+	transition: .5s;
+	box-shadow: 2px 1px 10px rgba(0,0,0,2.5)
+}
+.thumbnail:hover img:hover {
+	filter: blur (3px) ;
+	opacity: 0.5;
+	transform: scale(0.98);
+	box-shadow: none;
+}
+
+.thumbnail:hover{
+	filter: blur(1px);
+	opacity: 1;
+	transform: scale(1);
+	box-shadow: 0 8px 20px 0px rgba(0,0,0,0.125)
+}
+.Template .thumbnail.muncul {
+	opacity: 1;
+	transform:  translate(0,0);
+}
+
+a:hover {
+	background-color: #666;
+}
+
+.contact{
+	background-color: 		#EE82EE;
+	color: #eee;
+	min-height: 900px;
+	text-shadow: 1px 1px 10px  #eee;
+}
+.contact h2 {
+	color: #eee;
+	margin-bottom:100px;
+	text-align: center;
+	text-shadow: 1px 1px 10px  #eee;
+}
+.contact form-control {
+	color:#EE82EE;
+}section{
+	min-height: 600px;
+}
+
+
+
+
+
+

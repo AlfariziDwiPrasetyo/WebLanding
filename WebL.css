@@ -1,0 +1,239 @@
+html {
+    position: relative;
+}
+
+
+/* Navbar */
+
+.navbar{
+    position: relative;
+    z-index: 1;
+
+}
+
+.navbar-brand{
+    font-family: 'Viga', sans-serif ;
+    font-size: 32px;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(img/agreement-business-clapping-990817.jpg);
+    height: 540px;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 150px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    font-size: 31px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* info panel */
+
+.info-panel{
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    background-color: white;
+    margin-top: -100px;
+    padding: 30px;
+}
+
+.info-panel h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top:5px;
+    font-weight: bold;
+    color: #223278 ;
+
+}
+
+.info-panel h4 span{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top:5px;
+    font-weight: bold;
+    color: #EC6168 !important;
+
+}
+
+.info-panel p{
+    font-size: 14px;
+    margin-top: -5px;
+    color: #acacac;
+    font-weight: 200;
+}
+
+.info-panel img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* workingspace */
+
+
+.workingspace {
+    margin-top: 120px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.workingspace .col-lg-6 img {
+    border-radius: 12px;
+    width: 500px;
+    height: 500px;
+}
+
+.workingspace h3 {
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.workingspace span {
+    font-weight: 500;
+}
+
+.workingspace p {
+    font-size: 18px;
+    color: #acacac;
+    margin: 20px 0;
+}
+
+.Quotes {
+    margin-top: 120px;
+    
+}
+
+.Quotes h5 {
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.Quotes figure img {
+    width: 120px;
+    text-align: center;
+    margin: 30px 55px 0px;
+
+}
+
+
+.Quotes figure p {
+    text-align: center;
+    font-size: 12px;
+    color: #acacac;
+    margin-top: -5px;
+    
+}
+
+.Quotes figure h5 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #1c2c5d;
+}
+
+.footer{
+    text-align: center;
+    color: #acacac;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+.footer span {
+    font-family: Viga;
+}
+
+/* Contact */
+.contact {
+    min-height: 800px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+
+
+
+
+
+/* Utility */
+
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+/* Dekstop Version */
+@media (min-width: 992px) { 
+
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    }
+
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+     }
+
+   .jumbotron{
+    margin-top: -75px;
+    height: 640px;
+   }
+
+   .jumbotron .display-4 {
+    font-size: 62px;
+   }
+
+   .workingspace {
+       text-align: left;
+   }
+
+   .Quotes h5 {
+    font-size: 32px;
+   }
+    
+ }
